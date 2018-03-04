@@ -3,8 +3,8 @@
 git clone https://github.com/racharla-aravind/gurukula.git
 
 ## Prerequisites to run the tests
- # Java 1.8
- # Maven 3.3.9
+ - Java 1.8
+ - Maven 3.3.9
 
 ## How to run the test(s)
 
@@ -33,24 +33,24 @@ git clone https://github.com/racharla-aravind/gurukula.git
  - Performance Testing
 
 ## Modules Covered:
- # Home Page
- # Login Page
- # Reset Your Password
- # Create A New Branch
- # Search For A Branch Using BranchName and BranchCode
- # Delete A Branch
- # View A Branch 
- # Edit A Branch
- # Search For A Staff Using StaffName and StaffBranch
- # Delete A Staff
- # View A Staff 
- # Edit A Staff
- # Registration
- # Account Settings
+ - Home Page
+ - Login Page
+ - Reset Your Password
+ - Create A New Branch
+ - Search For A Branch Using BranchName and BranchCode
+ - Delete A Branch
+ - View A Branch 
+ - Edit A Branch
+ - Search For A Staff Using StaffName and StaffBranch
+ - Delete A Staff
+ - View A Staff 
+ - Edit A Staff
+ - Registration
+ - Account Settings
 
 ## Observations:
- # Placed a separate document in the project folder for bugs (Bugs.docx)
- # Placed a separate document in the project folder for Observations (NOTES.docx)
+ - Placed a separate document in the project folder for bugs (Bugs.docx)
+ - Placed a separate document in the project folder for Observations (NOTES.docx)
 
 ## Test Cases Document: 
- # Placed a separate document in the project folder (TestCases.xlsx)
+ - Placed a separate document in the project folder (TestCases.xlsx)
