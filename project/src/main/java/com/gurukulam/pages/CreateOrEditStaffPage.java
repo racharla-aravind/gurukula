@@ -1,5 +1,7 @@
 package com.gurukulam.pages;
 
+import static org.junit.Assert.assertTrue;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -102,5 +104,9 @@ public class CreateOrEditStaffPage {
 		
 		performAction.waitForElementVisible(driver, staffPage.createNewStaffBtn);
 		performAction.waitForFewSeconds(driver);
+		
+		staffPage.searchForAStaff(staffName);
+		boolean flag = staffPage.isStaffRecordDisplayed(staffName);
+		assertTrue(flag);
 	}
 }

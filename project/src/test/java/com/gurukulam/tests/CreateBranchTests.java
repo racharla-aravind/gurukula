@@ -578,6 +578,10 @@ public class CreateBranchTests {
 			branchesPage.clickOnCreateNewBranch();
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
+			
+			branchesPage.searchForABranch(name);
+			boolean flag = branchesPage.isBranchRecordDisplayed(name);
+			assertTrue(flag);
 				
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
@@ -607,6 +611,10 @@ public class CreateBranchTests {
 			branchesPage.clickOnCreateNewBranch();
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
+			
+			branchesPage.searchForABranch(name);
+			boolean flag = branchesPage.isBranchRecordDisplayed(name);
+			assertTrue(flag);
 				
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
@@ -636,7 +644,11 @@ public class CreateBranchTests {
 			branchesPage.clickOnCreateNewBranch();
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
-				
+			
+			branchesPage.searchForABranch(name);
+			boolean flag = branchesPage.isBranchRecordDisplayed(name);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -666,6 +678,10 @@ public class CreateBranchTests {
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
 				
+			branchesPage.searchForABranch(name);
+			boolean flag = branchesPage.isBranchRecordDisplayed(name);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -695,6 +711,10 @@ public class CreateBranchTests {
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
 				
+			branchesPage.searchForABranch(name);
+			boolean flag = branchesPage.isBranchRecordDisplayed(name);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -723,7 +743,11 @@ public class CreateBranchTests {
 			branchesPage.clickOnCreateNewBranch();
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
-				
+			
+			branchesPage.searchForABranch(code);
+			boolean flag = branchesPage.isBranchRecordDisplayed(code);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -752,7 +776,11 @@ public class CreateBranchTests {
 			branchesPage.clickOnCreateNewBranch();
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
-				
+			
+			branchesPage.searchForABranch(code);
+			boolean flag = branchesPage.isBranchRecordDisplayed(code);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -782,6 +810,10 @@ public class CreateBranchTests {
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
 				
+			branchesPage.searchForABranch(code);
+			boolean flag = branchesPage.isBranchRecordDisplayed(code);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -811,6 +843,10 @@ public class CreateBranchTests {
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
 				
+			branchesPage.searchForABranch(code);
+			boolean flag = branchesPage.isBranchRecordDisplayed(code);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());
@@ -840,6 +876,10 @@ public class CreateBranchTests {
 			createOrEditBranchPage.setCreateOrEditBranchDetails(name, code);
 			createOrEditBranchPage.clickOnSave();
 				
+			branchesPage.searchForABranch(code);
+			boolean flag = branchesPage.isBranchRecordDisplayed(code);
+			assertTrue(flag);
+			
 			Log.endTestCase(testCaseName);
 		} catch (Exception e) {
 			fail(e.getMessage());

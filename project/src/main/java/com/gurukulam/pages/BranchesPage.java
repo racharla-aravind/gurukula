@@ -54,8 +54,10 @@ public class BranchesPage {
 	
 	/**
 	 * This method is to clear the query text field value
+	 * @throws InterruptedException 
 	 */
-	public void clearQueryFieldValue(){
+	public void clearQueryFieldValue() throws InterruptedException{
+		performAction.waitForFewSeconds(driver);
 		performAction.clearTextFieldValue(driver, this.queryTxtFld);
 		Log.info("Query field value has been cleared to ");
 	}

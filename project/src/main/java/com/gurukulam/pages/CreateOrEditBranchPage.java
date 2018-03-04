@@ -1,5 +1,7 @@
 package com.gurukulam.pages;
 
+import static org.junit.Assert.assertTrue;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -115,5 +117,9 @@ public class CreateOrEditBranchPage {
 		
 		performAction.waitForElementVisible(driver, branchesPage.createNewBranchBtn);
 		performAction.waitForFewSeconds(driver);
+		
+		branchesPage.searchForABranch(name);
+		boolean flag = branchesPage.isBranchRecordDisplayed(name);
+		assertTrue(flag);
 	}
 }
